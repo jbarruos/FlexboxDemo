@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body .content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+body .content .sub-content {
+  flex: 1;
+  font-size: 32px;
+}
+
+.header {
+  flex-shrink: 1;
+  font-size: 32px;
+}
+
+.footer {
+  flex-shrink: 1;
+  font-size: 32px;
+}
+
+div {
+  border: 1px solid black;
+}

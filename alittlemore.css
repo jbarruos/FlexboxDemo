@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body .content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+body .content .sub-content {
+  flex: 1;
+}
+
+.header {
+  flex-shrink: 1;
+}
+
+.footer {
+  flex-shrink: 1;
+}
+
+div .centered > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+div .centered > div div,
+.footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer div div {
+  flex-direction: row;
+  justify-content: center;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.footer {
+  background: #f8f9fa;
+}
+
+.demo-photo {
+  min-width: 100px;
+  max-width: 20vw;
+}
